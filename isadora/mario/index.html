@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+ <meta charset="UTF-8">
+  <link rel="stylesheet" href="styles.css">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MARIO</title>
+</head>
+<body>
+   <div class="game">
+    <img class="mario" src="./imagem/mario.gif" alt="mario">
+    <img class="pipe" src="./imagem/super_mario__pink_warp_pipe_2d_by_joshuat1306_dcpqfhs-fullview.png" alt="cano">
+    <img class="clouds" src="./imagem/clouds.png" alt="nuvem">
+
+    <button class="start" onclick="startGame()">Iniciar</button>
+   </div>
+
+      <div class="game-over" style="display: none;">
+        <img class="game-over" src="./imagem/gameover.png" alt="Game Over">
+        <h1>Game Over :(</h1><button onclick="restartGame()">Reiniciar</button>
+    </div>
+    
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

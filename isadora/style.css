@@ -1,0 +1,39 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: 0;
+}
+.vermelho {
+color: red;
+}
+ 
+table{
+border-collapse: collapse;
+width: 700px;
+text-align: center;
+}
+
+td{ 
+    padding: 10px;
+    border-color: black;
+    border-width: 2px;
+    border-style:solid;
+text-align: center;
+
+}
+
+th {
+    padding: 10px;
+    border-color: black;
+    border-width: 2px;
+    border-style:solid;
+background-color: rgb(189, 161, 215);
+
+}
+
+h1{
+margin-bottom: 30px;
+margin-top: 30px;
+margin-left: 70px;
+}
+
